@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.nio.charset.Charset;
 
 @SpringBootApplication
 @RestController
@@ -13,7 +12,7 @@ public class SpringBootRestHelloWorldApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World!";
+        return "Hello World V2!";
     }
 
     public static void main(String[] args) {
